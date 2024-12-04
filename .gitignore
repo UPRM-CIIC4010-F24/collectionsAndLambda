@@ -1,0 +1,20 @@
+#============================================================
+# Ignoring the executable files
+# Will first ignore all files and then indicates which are 
+# exceptions to that. Why do this? To have less clutter in
+# Github.
+#============================================================
+# Ignoring all files
+*
+# Unignoring files with extensions 
+!*.*
+# Unignore directories
+!*/
+
+# Ignore output file incase g++ compiling is used
+*.out
+
+# Ignore VSCode configuration folder
+.vscode
+# Ignore the temporary code runner file
+*/tempCodeRunnerFile.cpp
